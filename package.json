@@ -1,0 +1,15 @@
+{
+  "name": "storyblok-csv-importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^2.5.0",
+    "storyblok-js-client": "^1.0.22"
+  }
+}
