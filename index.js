@@ -14,7 +14,7 @@ const config = {
 
 let stream = fs.createReadStream('demo.csv')
 
-csvReader.fromStream(stream, { headers: true, delimiter: ';' })
+csvReader.parseStream(stream, { headers: true, delimiter: ';' })
   .on('data', (line) => {
     // one line of csv in here
     let story = {
