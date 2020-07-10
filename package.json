@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fast-csv": "^2.5.0",
-    "storyblok-js-client": "^1.0.22"
+    "fast-csv": "^4.3.1",
+    "storyblok-js-client": "^2.5.1"
   }
 }
